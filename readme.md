@@ -14,15 +14,16 @@ A modern, modular Discord bot template built with `discord.py` This project serv
 ### 1. Clone the Repository
 Open your terminal and run the following command to download the project:
 ```bash
-git clone [https://github.com/Wuji00000/Python-Discord-Bot-Template.git](https://github.com/Wuji00000/Python-Discord-Bot-Template.git)
+git clone https://github.com/Wuji00000/Python-Discord-Bot-Template.git
 cd Python-Discord-Bot-Template
-2. Install Dependencies
+```
+### 2. Install Dependencies
 Install the required Python libraries using pip:
 
-Bash
-
+```bash
 pip install -r requirements.txt
-3. Configuration
+```
+### 3. Configuration
 Rename the .env.example file to .env.
 
 Open the .env file and paste your credentials:
@@ -31,12 +32,12 @@ DISCORD_TOKEN: Get it from the Discord Developer Portal.
 
 GEMINI_API_KEY: Get it from Google AI Studio.
 
-4. Run the Bot
+### 4. Run the Bot
 Start the bot with the following command:
 
-Bash
-
+```bash
 python main.py
+```
 📂 Project Structure
 main.py: The entry point. Handles extension loading and global command syncing.
 
