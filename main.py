@@ -27,8 +27,7 @@ async def load_extensions():
         'active', 
         'commands.general', 
         'commands.clear', 
-        'commands.gemini', 
-        'commands.nsfw',
+        'commands.ai', 
         'commands.mod'
     ]
     for ext in extensions:
