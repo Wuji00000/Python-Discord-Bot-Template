@@ -30,7 +30,7 @@ Open the .env file and paste your credentials:
 
 DISCORD_TOKEN: Get it from the Discord Developer Portal.
 
-GEMINI_API_KEY: Get it from Google AI Studio.
+Ai_API_KEY: Get it from somewhere if you need to talk
 
 ### 4. Run the Bot
 Start the bot with the following command:
@@ -42,8 +42,6 @@ python main.py
 main.py: The entry point. Handles extension loading and global command syncing.
 
 commands/: Contains all bot modules (Cogs).
-
-gemini.py: AI integration logic.
 
 mod.py: Moderation commands (Kick, Ban).
 
